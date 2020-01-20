@@ -5,7 +5,6 @@ namespace AbstractClasses
 {
     class Program
     {
-        // Test SSH 
         static void Main(string[] args)
         {
             // Instantiate Dog class to create dog object
