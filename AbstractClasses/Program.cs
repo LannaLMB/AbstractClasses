@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 
 namespace AbstractClasses
 {
@@ -6,7 +7,18 @@ namespace AbstractClasses
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            // Instantiate Dog class to create dog object
+            Dog dog = new Dog();
+
+            // Instantiate Cat class to create cat object
+            Cat cat = new Cat();
+
+            dog.animalSound();
+            cat.animalSound();
+
+            // This allows the console window to stay open for 3 seconds
+            // That way we can view our results for 3 seconds before the window closes.
+            Thread.Sleep(3000);
         }
     }
 }
