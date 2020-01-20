@@ -16,8 +16,9 @@ namespace AbstractClasses
             dog.animalSound();
             cat.animalSound();
 
-            // This allows the console window to stay open for 3 seconds
+            // This allows the console window to stay open for 3 seconds.
             // That way we can view our results for 3 seconds before the window closes.
+            // This is using milliseconds.
             Thread.Sleep(3000);
         }
     }
